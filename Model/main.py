@@ -2,7 +2,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 from PIL import Image, UnidentifiedImageError
 import io
-from model import model_pipeline
+from Model.model import model_pipeline
 from fastapi.middleware.cors import CORSMiddleware
 
 
